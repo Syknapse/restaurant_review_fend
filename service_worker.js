@@ -2,6 +2,8 @@ const name = "v1"
 
 const urls = [
     '/',
+    'index.html',
+    'restaurant.html',
     '/css/styles.css',
     '/js/main.js',
     '/js/restaurant_info.js',
