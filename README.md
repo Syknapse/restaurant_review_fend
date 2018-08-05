@@ -1,32 +1,28 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Review
 
-## Project Overview: Stage 1
+A Udacity Front-end Nanodegree project. Fix responsiveness and accessibility. Add service worker for offline navigation.
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+## Instalation
 
-### Specification
+You can see what the page looks like [here](https://syknapse.github.io/restaurant_review_fend/) but you'll need to serve it to see the dynamic content.
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
++ Download this project to your local machine.
++ In your terminal check if you have Python installed by typing `python -V`. If you get a version number it is installed.
++ If you get an error message you'll need to install it from [Python's downloads page](https://www.python.org/downloads/)
++ If you are a windows user make sure you tick and accept the options related to `PATH`.
++ Once it's installed **close** your terminal and start it again. Check that python has installed correctly by repeating step 2.
++ Navigate to the project folder (example `cd documents\github\restaurant_review`)
++ Now launch the python server If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python -m http.server 8000`.
++ Now that the server is running go to your browser and open your local host on th eport you are serving (8000 in most cases): `http://localhost:8000`
++ You should now be able to see the running project.
 
-### What do I do from here?
+## Spec
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
++ This website should provide a smooth experience on any screen size. It should be completely responsive taking advantage of wide screens and adapting to smaller mobile screens.
++ This website should be fully accessible and compliant with current accessibility guidlines. It should be easy to use and navigate using a screen reader and other assistive technologies.
++ This website should provide a service worker cache to show previously visited pages offline.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+## Acknowledgments
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+This project like all the nanodegree projects are not possible without the constant help and inspiration of the great community in the course's forums, on GitHub and CodePen, and on Slack. 
+Special thanks to [elena-in-code](https://github.com/elena-in-code/Restaurant-reviews), [maevanapcontact](https://github.com/maevanapcontact/fend-restaurant-review-app), and [BycorSanchez](https://github.com/BycorSanchez/restaurant-reviews)
