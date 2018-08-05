@@ -25,5 +25,6 @@ You can see what the page looks like [here](https://syknapse.github.io/restauran
 ## Acknowledgments
 
 This project like all the nanodegree projects are not possible without the constant help and inspiration of the great community in the course's forums, on GitHub and CodePen, and on Slack. 
-Special thanks to [elena-in-code](https://github.com/elena-in-code/Restaurant-reviews), [maevanapcontact](https://github.com/maevanapcontact/fend-restaurant-review-app), and [BycorSanchez](https://github.com/BycorSanchez/restaurant-reviews)
+Special thanks to [elena-in-code](https://github.com/elena-in-code/Restaurant-reviews), [maevanapcontact](https://github.com/maevanapcontact/fend-restaurant-review-app), and [BycorSanchez](https://github.com/BycorSanchez/restaurant-reviews).
+
 Also [MDN's SW example](https://github.com/mdn/sw-test/blob/gh-pages/sw.js)
